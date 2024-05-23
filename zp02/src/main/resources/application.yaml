@@ -1,0 +1,19 @@
+# ?? ??(properties)
+#server.port=8081
+#spring.mvc.view.prefix=/WEB-INF/views/
+#spring.mvc.view.suffix=.jsp
+
+# ?? ??(yaml)
+server:
+  port: 8082
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/Views/
+      suffix: .jsp
+
+  application:
+    name: rabbit
+
+  zipkin:
+    base-url: http://localhost:9411
